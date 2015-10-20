@@ -91,6 +91,7 @@ BOARD_SEPOLICY_UNION += \
     drmserver.te \
     felica.te \
     file_contexts \
+    file.te \
     hcheck.te \
     healthd.te \
     init.te \
