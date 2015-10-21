@@ -170,7 +170,7 @@ on boot
     # permissions for NFC
     chmod 0600 /dev/pn544
     chown nfc nfc /dev/pn544
-    setprop debug.nfc.fw_download "true"
+    setprop debug.nfc.fw_download "false"
     setprop debug.nfc.fw_boot_download "false"
 
     # disable L27 S3 static pull down disable
