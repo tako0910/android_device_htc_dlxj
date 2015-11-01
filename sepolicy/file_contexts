@@ -21,5 +21,6 @@
 /dev/felica(.*)			u:object_r:felica_device:s0
 
 # SNFC
+/dev/ttyHS1			u:object_r:nfc_device:s0
 /dev/snfc(.*)			u:object_r:nfc_device:s0
 
